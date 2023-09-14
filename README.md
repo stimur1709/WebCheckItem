@@ -1,4 +1,4 @@
-# WebCheckBrackets
+# WebCheckItem
 
 ## Features
 Rest API service for checking the opening and closing pairs in the text.

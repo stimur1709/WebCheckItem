@@ -12,7 +12,7 @@ The simplest and most basic way of running
 [Link and installation instructions java 17](https://www.oracle.com/cis/java/technologies/downloads/)
 
 If you have Java 17 installed:
-1. [download the file](https://github.com/stimur1709/WebCheckItem/raw/docker/WebCheckItems.jar).
+1. [download the file](https://raw.githubusercontent.com/stimur1709/WebCheckItem/master/WebCheckItems-1.0.jar).
 2. open the directory where the JAR file is located or create a new one and transfer the JAR file. 
 3. open a console in the current directory and run the command.
 ```

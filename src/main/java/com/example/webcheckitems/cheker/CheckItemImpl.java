@@ -1,6 +1,6 @@
 package com.example.webcheckitems.cheker;
 
-public class CheckItemImpl implements CheckItem {
+public abstract class CheckItemImpl implements CheckItem {
 
     private final char startItem;
     private final char endItem;

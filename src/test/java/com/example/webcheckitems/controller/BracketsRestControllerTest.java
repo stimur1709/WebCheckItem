@@ -33,7 +33,7 @@ class BracketsRestControllerTest {
 
 
     @Test
-    @DisplayName("checking the correctness of the request")
+    @DisplayName("Checking the correctness of the request")
     void checkText() throws Exception {
         for (Map.Entry<String, Boolean> entry : StorageText.init().entrySet()) {
             mockMvc.perform(
@@ -49,7 +49,7 @@ class BracketsRestControllerTest {
     }
 
     @Test
-    @DisplayName("request with a confused body")
+    @DisplayName("Request with a confused body")
     void checkTextWithEmptyText() throws Exception {
         String[] texts = {"", "     ", null};
         for (String text : texts) {

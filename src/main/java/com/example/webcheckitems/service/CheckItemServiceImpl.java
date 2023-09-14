@@ -7,14 +7,12 @@ import lombok.AllArgsConstructor;
 
 
 @AllArgsConstructor
-public class CheckItemServiceImpl<C extends CheckItemImpl> implements CheckItemService {
+public abstract class CheckItemServiceImpl<C extends CheckItemImpl> implements CheckItemService {
 
     private final C checker;
+
     @Override
-    public CheckResponse checkText(String text) throws EmptyTextException {
-        if (text == null || text.isBlank()) {
-            throw new EmptyTextException("Test is empty");
-        }
+    public CheckResponse checkText(String text) {
         return new CheckResponse(checker.check(text));
     }
 
